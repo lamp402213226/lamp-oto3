@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// 组长: 添加用户index
+Route::get('admin/user','UserController@index');
